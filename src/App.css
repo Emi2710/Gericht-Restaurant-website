@@ -65,6 +65,12 @@
     border: none;
     outline: none;
     cursor: pointer;
+    width: 156px;
+}
+
+.custom__button:hover{
+    background: var(--color-golden);
+    transition-duration: 0.8s;
 }
 
 .p__cormorant {
@@ -99,6 +105,23 @@
 
 .spoon__img {
     width: 45px;
+}
+
+.btn {
+    background: var(--color-golden);
+    color: var(--color-black);
+    font-family: var(--font-base);
+    font-weight: 700;
+    padding: 1rem;
+    width: 157px;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+}
+
+.btn:hover{
+    background: #a5955c;
+    transition-duration: 0.5s;
+    cursor: pointer;
 }
 
 @media screen and (min-width: 2000px) {

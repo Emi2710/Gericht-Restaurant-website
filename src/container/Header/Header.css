@@ -1,0 +1,25 @@
+.app__header{
+    background-color: var(--color-black);
+    display: flex;
+    justify-content: center;
+}
+
+.app__header-paragraph{
+    opacity: 75%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.app__wrapper-info {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    padding: 2rem;
+    width: 80%;
+}
+
+.app__header-img img {
+    width: 80%;
+    padding-top: 2rem;
+}

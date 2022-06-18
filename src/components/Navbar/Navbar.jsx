@@ -15,10 +15,10 @@ const Navbar = () => {
       <img src={images.gericht} alt="app__logo" />
     </div>
       <ul className='app__navbar-links'>
-        <li className='p__opensans'><a href="#">Home</a></li>
-        <li className='p__opensans'><a href="#">About</a></li>
-        <li className='p__opensans'><a href="#">Menu</a></li>
-        <li className='p__opensans'><a href="#">Contact</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">Contact</a></li>
       </ul>
 
       <div className="app__navbar-smallscreen">

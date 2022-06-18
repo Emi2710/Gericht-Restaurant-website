@@ -53,7 +53,7 @@
 }
 
 .custom__button {
-    background-color: var(--color-crimson);
+    background-color: var(--color-golden);
     color: var(--color-black);
     font-family: var(--font-base);
     font-weight: 700;
@@ -66,11 +66,12 @@
     outline: none;
     cursor: pointer;
     width: 156px;
+    transition: 0.8s;
 }
 
 .custom__button:hover{
-    background: var(--color-golden);
-    transition-duration: 0.8s;
+    background: var(--color-crimson);
+    transition: 0.8s;
 }
 
 .p__cormorant {
@@ -86,13 +87,14 @@
 
 .p__opensans {
     font-family: var(--font-alt);
-    color: var(--color-white);
+    color: var(--color-grey);
     font-weight: 400;
     letter-spacing: 0.04em;
     text-transform: capitalize;
     line-height: 28px;
     font-size: 16px;
 }
+
 
 .headtext__cormorant {
     font-family: var(--font-base);
@@ -105,23 +107,6 @@
 
 .spoon__img {
     width: 45px;
-}
-
-.btn {
-    background: var(--color-golden);
-    color: var(--color-black);
-    font-family: var(--font-base);
-    font-weight: 700;
-    padding: 1rem;
-    width: 157px;
-    font-size: 16px;
-    letter-spacing: 0.04em;
-}
-
-.btn:hover{
-    background: #a5955c;
-    transition-duration: 0.5s;
-    cursor: pointer;
 }
 
 @media screen and (min-width: 2000px) {

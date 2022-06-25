@@ -1,58 +1,58 @@
 import images from './images';
 
-const wines = [
+const drinks = [
   {
-    title: 'Chapel Hill Shiraz',
-    price: '$56',
-    tags: 'AU | Bottle',
+    title: 'Brown Sugar Milk',
+    price: '$18',
+    tags: '750 ml',
   },
   {
-    title: 'Catena Malbee',
-    price: '$59',
-    tags: 'AU | Bottle',
+    title: 'Limon Tea',
+    price: '$18',
+    tags: '750 ml',
   },
   {
-    title: 'La Vieillw Rose',
-    price: '$44',
-    tags: 'FR | 750 ml',
+    title: 'Lychee Tea',
+    price: '$18',
+    tags: '750 ml',
   },
   {
-    title: 'Rhino Pale Ale',
-    price: '$31',
-    tags: 'CA | 750 ml',
+    title: 'Coconut Water',
+    price: '$20',
+    tags: '750 ml',
   },
   {
-    title: 'Irish Guinness',
-    price: '$26',
-    tags: 'IE | 750 ml',
+    title: 'Iced Tea',
+    price: '$20',
+    tags: '750 ml',
   },
 ];
 
-const cocktails = [
+const lemonades = [
   {
-    title: 'Aperol Sprtiz',
+    title: 'Green Apple',
     price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    tags: 'Soda | 30 ml',
   },
   {
-    title: "Dark 'N' Stormy",
+    title: "Strawberry",
     price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
+    tags: 'Slice of lime',
   },
   {
-    title: 'Daiquiri',
+    title: 'Cucumber',
     price: '$10',
-    tags: 'Rum | Citrus juice | Sugar',
+    tags: 'Citrus juice | Sugar',
   },
   {
-    title: 'Old Fashioned',
-    price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
+    title: 'Blueberry',
+    price: '$21',
+    tags: 'Soda | 30 ml',
   },
   {
-    title: 'Negroni',
-    price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+    title: 'Mango',
+    price: '$23',
+    tags: 'Soda | 30 ml',
   },
 ];
 
@@ -79,4 +79,4 @@ const awards = [
   },
 ];
 
-export default { wines, cocktails, awards };
+export default { drinks, lemonades, awards };

@@ -47,6 +47,34 @@
     transform: rotate(180deg);
 }
 
+@media screen and (min-width: 2000px) {
+    .app__aboutus-knife img {
+        height: 1110px;
+    }
+
+    .app__aboutus-aboutus p,
+    .app__aboutus-history p {
+        margin: 4rem 0;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .app__aboutus-text-container {
+        flex-direction: column;
+    }
+
+    .app__aboutus-knife {
+        margin: 4rem 0;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .app__aboutus-overlay img {
+        width: 80%;
+        height: 320px;
+    }
+}
+
 
 
 

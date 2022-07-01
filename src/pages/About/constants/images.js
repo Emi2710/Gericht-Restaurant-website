@@ -13,6 +13,8 @@ import history2 from '../assets/history-2.png';
 import jane from '../assets/jane.png';
 import robert from '../assets/robert.png';
 import quotes from '../assets/quotes.png';
+import spoon from '../assets/spoon.png';
+
 
 export default {
     about,
@@ -29,5 +31,6 @@ export default {
     history2,
     jane,
     robert,
-    quotes
+    quotes,
+    spoon
 };

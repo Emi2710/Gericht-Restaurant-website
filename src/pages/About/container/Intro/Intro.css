@@ -1,0 +1,18 @@
+.aboutus__wrapper {
+    background-color: var(--color-black);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 7rem 0 7rem 0;
+}
+
+.aboutus__wrapper p {
+    max-width: 850px;
+    padding: 2rem;
+}
+
+.aboutus__wrapper img {
+    width: 70%;
+}

@@ -1,3 +1,4 @@
 import images from './images';
+import customers from './customers';
 
-export { images };
+export { images, customers };

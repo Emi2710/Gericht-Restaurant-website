@@ -1,0 +1,65 @@
+.contact__form-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5rem 0;
+}
+
+.contact__form-wrapper img {
+    width: 80%; 
+}
+
+.contact__form-img {
+    max-width: 50vw;
+    max-height: 80vh;
+}
+
+.contact__form-wrapper form {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 100%;
+}
+
+.contact__form-wrapper form:active{
+    background: none;
+}
+
+.contact__form-wrapper form input, textarea {
+    background: none;
+    border: 1px solid #aaa;
+    margin: 1rem 0;
+    padding: 0.7rem;
+    color: #fff;
+}
+
+textarea {
+    height: 125px;
+}
+
+textarea:active {
+    background: none;
+}
+
+::placeholder {
+    font-family: 'Cormorant Upright', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+
+
+@media screen and (max-width: 520px) {
+    .contact__form-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact__form-wrapper form {
+        width: 80vw;
+    }
+
+    .contact__form-img img {
+        display: none;
+    }
+}

@@ -1,0 +1,34 @@
+.findus__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+    padding: 5rem 0
+}
+
+.findus__img-container img {
+    width: 80%;
+}
+
+.findus__container {
+    padding: 3rem;
+}
+
+.findus__container p {
+    padding-top: 1rem;
+}
+
+.findus__container button {
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 525px) {
+    .findus__wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .findus__img-container {
+        display: flex;
+        justify-content: center;
+    }
+}

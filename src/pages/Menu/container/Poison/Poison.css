@@ -1,0 +1,20 @@
+.poison__wrapper {
+    background-color: var(--color-black);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 0;
+}
+
+.poison__images-container {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3rem;
+}
+
+.poison__images-container img {
+    width: 30%;
+    border: 1px solid #dcc489;
+}
+

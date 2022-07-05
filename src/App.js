@@ -1,4 +1,6 @@
-import React from 'react';
+import React, {useState, useEffect } from 'react';
+
+import { ParallaxProvider } from 'react-scroll-parallax';
 
 import { Routes, Route } from 'react-router-dom';
 
@@ -12,19 +14,24 @@ import Contact from './pages/Contact/Contact';
 
 import './App.css';
 
-const App = () => (
-  <div>
-    <Navbar />
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
-      <Route path="menu" element={<Menu />} />
-      <Route path="contact" element={<Contact />} />
-    </Routes>
-    <Footer />
-   
-    
-  </div>
-);
+const App = () => {
+
+  return(
+    <ParallaxProvider>
+      <div style={{backgroundColor:'#0C0C0C'}}>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="menu" element={<Menu />} />
+          <Route path="contact" element={<Contact />} />
+        </Routes>
+        <Footer />
+      
+        
+      </div>    
+    </ParallaxProvider>
+  
+)};
 
 export default App;

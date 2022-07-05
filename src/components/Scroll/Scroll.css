@@ -8,4 +8,18 @@
     z-index: 1;
     cursor: pointer;
     color: var(--color-golden);
+    
 }
+
+@media screen and (max-width: 800px) {
+    .scroll__wrapper {
+        left: 90%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .scroll__wrapper {
+        left: 85%;
+    }
+}
+

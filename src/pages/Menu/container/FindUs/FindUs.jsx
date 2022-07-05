@@ -14,7 +14,9 @@ const FindUs = () => {
         <p className='p__cormorant' style={{color:'#dcc489'}}>Opening Hours</p>
         <p className='p__opensans' style={{color:'#fff'}}>Mon - Fri: 10:00 am - 02:00 am</p>
         <p className='p__opensans' style={{color:'#fff'}}>Sat - Sun: 10:00 am - 03:00 am</p>
-        <button className='custom__button'>Visit Us</button>
+        <a href="https://www.google.fr/maps/" target='_blank'>
+          <button className='custom__button'>Visit Us</button>
+        </a>
       </div>
       <div className='findus__img-container'>
         <img src={images.findus} />

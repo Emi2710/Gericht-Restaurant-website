@@ -1,6 +1,5 @@
 .app__header{
     background-color: var(--color-black);
-    
 }
 
 .app__header-paragraph{
@@ -30,6 +29,10 @@
     .app__header-h1 {
         font-size: 90px;
     }
+    
+    .app__header {
+        margin-top: 20rem;
+    }
 }
 
 @media screen and (max-width: 650px) {
@@ -37,6 +40,7 @@
         font-size: 70px;
         line-height: 87px;
     }
+    
 }
 
 @media screen and (max-width: 450px) {

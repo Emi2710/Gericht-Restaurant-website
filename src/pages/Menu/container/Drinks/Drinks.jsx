@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Drinks.css';
 import { SubHeading } from '../../../../components';
 
@@ -16,7 +17,9 @@ const Drinks = () => {
           <SubHeading title='About Us' />
           <h3 className='headtext__cormorant'>Food, Drinks, Entertainment In One</h3>
           <p className='p__opensans' style={{paddingTop: '2rem', paddingBottom: '2rem'}}>Adipiscing tempus ullamcorper lobortis odio tellus arcu volutpat. Risus placerat morbi volutpat habitasse interdum mi aliquam In sed odio nec aliquet.</p>
-          <button className='custom__button'>Know More</button>
+          <Link to='../about'>
+            <button className='custom__button'>Know More</button>
+          </Link>
         </div>
       </div>
     </div>

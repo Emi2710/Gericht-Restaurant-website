@@ -12,11 +12,7 @@ const Home = () => {
 
         <AboutUs />
         <SpecialMenu />
-
-      <Parallax translateY={[-10, 20]}>
-        <Chef />
-      </Parallax>
-        
+        <Chef />  
         <Intro />
         <Laurels />
 

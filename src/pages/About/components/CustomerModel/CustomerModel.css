@@ -44,7 +44,7 @@
     }
 
     .customer__img-quotes {
-        padding: 0 1rem 1rem 0
+        display: none;
     }
 
 }

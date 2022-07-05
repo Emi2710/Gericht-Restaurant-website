@@ -9,7 +9,7 @@ const Header = () => {
       <div className='header__img' style={{ 
       backgroundImage: `url(${images.header})`}}>
         <div className='header__title'>
-          <h1 className='headtext__cormorant' style={{color:'#fff'}}>On The Rocks</h1>
+          <h1 className='headtext__cormorant fadeDown-animation' style={{color:'#fff'}} >On The Rocks</h1>
         </div>
       </div>
       

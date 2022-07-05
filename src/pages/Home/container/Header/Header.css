@@ -18,6 +18,7 @@
     padding-top: 2rem;
 }
 
+
 @media screen and (min-width: 2000px) {
     .app__header-h1 {
         font-size: 180px;
@@ -44,3 +45,10 @@
         line-height: 70px;
     }
 }
+
+
+
+
+
+     
+

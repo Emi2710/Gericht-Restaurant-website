@@ -7,8 +7,8 @@ const Header = () => {
       backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${images.header})` 
     }}>
       <div className='header__text-container'>
-        <div className='header__title headtext__cormorant' style={{padding:'1rem'}}><h3>Welcome To Gericht</h3></div>
-        <div className='p__cormorant'>About Us</div>  
+        <div className='header__title headtext__cormorant fadeDown-animation' style={{padding:'1rem'}}><h3>Welcome To Gericht</h3></div>
+        <div className='p__cormorant fadeDown-animation'>About Us</div>  
       </div>
       
 

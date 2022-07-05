@@ -7,8 +7,8 @@ const Header = () => {
     <div className='contact__header-wrapper' style={{ 
       backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${images.header})` 
     }}>
-        <h1 className='headtext__cormorant'>Contact Us</h1>
-        <p className='p__cormorant'>Home - Contact</p>
+        <h1 className='headtext__cormorant fadeDown-animation'>Contact Us</h1>
+        <p className='p__cormorant fadeDown-animation'>Home - Contact</p>
 
     </div>
   )
